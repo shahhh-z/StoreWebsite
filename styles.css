@@ -1,0 +1,190 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #0C72B4;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100vh;
+    margin: 0;
+}
+.sticky-top {
+    background-color: #0051B4;
+}
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nav-container p {
+    display: inline;
+    font-weight: normal;
+    margin-left: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar-nav {
+    display: flex;
+    margin-top: 10px;
+}
+.navbar-toggler {
+    width: 100%;
+}
+.navbar-text {
+    color: black;
+    display: inline-block;
+}
+#nav-img {
+    margin-left: 5px;
+    display: inline;
+    height: 40px;
+    width: auto;
+}
+#brand-name {
+    font-family: Impact;
+    font-size: 32px;
+}
+.nav-text, .dropdown-text {
+    color: black !important;
+}
+.nav-text:hover {
+    transition: color 1.5s;
+    color: white !important;
+}
+.nav-dropdown {
+    background-color: #0051B4;
+}
+.content {
+    margin: 4%;
+    padding: 1%;
+    background-color: #F5EE9E;
+}
+.content h1, .content h2 {
+    font-family: Impact;
+}
+#about h3 {
+    margin: 2%;
+}
+#workers-img {
+    background-image: url("../img/workers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 96%;
+    height: 60vh;
+    position: relative;
+    margin: 2%;
+    margin-top: 20px;
+}
+.content .big-img {
+    margin: 2%;
+    width: 96%;
+    height: auto;
+}
+#employees {
+    display: flex;
+    flex-wrap: wrap;
+}
+.employee {
+    text-align: center;
+    width: 29.3%;
+    height: auto;
+    margin: 2%;
+}
+.employee img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+.employee p {
+    text-align: left;
+}
+#the-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    text-align: center;
+    width: 21%;
+    margin: 2%;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.product h4 {
+    font-family: Impact;
+}
+.product p {
+    text-align: left;
+}
+.buy {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+#contacts {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#contacts form {
+    margin: 2%;
+    text-align: left;
+}
+#contact h3 {
+    margin-top: 1%;
+}
+#contacts img {
+    margin: 2%;
+    margin-right: 4%;
+    width: 40%;
+    height: 40%;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.content p {
+    font-family: Arial;
+}
+@keyframes flashDeal {
+    0% {color: black; font-weight: normal;}
+    50% {color: red; font-weight: bold;}
+    100% {color: black; font-weight: normal;}
+}
+.deal {
+    animation: flashDeal 2s infinite;
+}
+#footer {
+    background-color: #0051B4;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: small;
+    color: lightgrey;
+    text-align: center;
+    height:3vh;
+    display: grid;
+    align-items: center;
+}
+#top-button {
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-family: Arial;
+    transition: opacity 1s;
+}
