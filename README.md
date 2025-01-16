@@ -7,4 +7,4 @@ Website: [https://candid-gecko-bc3376.netlify.app/](https://candid-gecko-bc3376.
 Added form validation.
 
 # Next Update
-Add media queries for slogan and make the website look better on FireFox.
+ - Fix the slogan so that it shifts below the company title in the navbar when the window is too small.
